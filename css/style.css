@@ -1,0 +1,39 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#titulo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../img/lemon-pie.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+h3 {
+    font-style: italic;
+}
+
+span {
+    color: orange;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+}
